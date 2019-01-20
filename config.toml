@@ -1,0 +1,47 @@
+title = "seedshare"
+baseURL = "http://seedshare.io/"
+tags = ["portfolio", "web developer", "blog", "programming"]
+languageCode = "en-US"
+config = "config.toml"
+theme = "osprey"
+canonifyURLS = true
+disableKinds = ["taxonomy", "taxonomyTerm"]
+
+[Params]
+  tagline = "technology to inspire"
+  author = "Kevin Caravaggio"
+  description = "Software Engineer in Seattle developing cloud-powered enterprise services"
+  logoBig = "/images/seedshare-banner.jpg"
+  logoSmall = "/images/seedshare-symbol.png"
+  favicon = "/images/seedshare-favicon.png"
+  opengraphImage = "/images/osprey.png"
+  twitter = "kevvurs"
+  linkedin = "kevin-caravaggio"
+  github = "kevvurs"
+  facebook = ""
+  email = "hello@seedshare.io"
+  googleTagManger = ""
+  highlightJS = true
+  copyright = true
+  credit = true
+  customCSS = false
+  cacheBustCSS = false
+  cacheBustJS = false
+  ajaxFormspree = true
+
+[[menu.main]]
+    name = "About"
+    url  = "/#about"
+    weight = 1
+[[menu.main]]
+    name = "Work"
+    url  = "/#work"
+    weight = 2
+[[menu.main]]
+    name = "Blog"
+    url  = "/#blog"
+    weight = 3
+[[menu.main]]
+    name = "Contact"
+    url  = "/#contact"
+    weight = 4
