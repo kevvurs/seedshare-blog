@@ -31,15 +31,15 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
 [[menu.main]]
     name = "About"
-    url  = "/#about"
+    url  = "/about"
     weight = 1
 [[menu.main]]
-    name = "Work"
-    url  = "/#work"
+    name = "Featured"
+    url  = "/#featured"
     weight = 2
 [[menu.main]]
     name = "Blog"
-    url  = "/#blog"
+    url  = "/blog"
     weight = 3
 [[menu.main]]
     name = "Contact"
