@@ -1,1 +1,1 @@
-[seedshare][https://seedshare.io]
+[seedshare](https://seedshare.io)
