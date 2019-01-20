@@ -6,6 +6,7 @@ config = "config.toml"
 theme = "osprey"
 canonifyURLS = true
 disableKinds = ["taxonomy", "taxonomyTerm"]
+googleAnalytics = "UA-132818094-1"
 
 [Params]
   tagline = "technology to inspire"
@@ -20,7 +21,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
   github = "kevvurs"
   facebook = ""
   email = "hello@seedshare.io"
-  googleTagManger = ""
+  googleTagManger = " "
   highlightJS = true
   copyright = true
   credit = true

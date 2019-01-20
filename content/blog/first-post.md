@@ -43,7 +43,7 @@ Anyway, check out some of the woefully under-developed screenshots I produced!
 
 [explore the defunct code base on GitHub][opencareers]
 
-## pivoting
+## pivoting to a portfolio
 Almost as soon as the summer ended and I resumed academics, the idea of
 seedshare as a jobs website cooled off. I had already purchased the domain name
 from Google, and it was actually my friend who came up with the name, which I
