@@ -1,5 +1,5 @@
 title = "seedshare"
-baseURL = "https://seedshare.firebaseapp.com/"
+baseURL = "https://seedshare.io/"
 tags = ["portfolio", "web developer", "blog", "programming"]
 languageCode = "en-US"
 config = "config.toml"

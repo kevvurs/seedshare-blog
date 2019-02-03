@@ -1,6 +1,6 @@
 +++
 title = "Hello World"
-date = "2019-01-02"
+date = "2019-01-19"
 description = "in the beginning"
 tags = [ "development", "ember", "glimmer", "seedshare" ]
 categories = [ "project", "meta" ]
