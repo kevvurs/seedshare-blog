@@ -1,4 +1,4 @@
-workflow "New workflow" {
+workflow "Publish SSG" {
   on = "push"
   resolves = ["GitHub Action for Firebase"]
 }
