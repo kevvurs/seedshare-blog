@@ -20,5 +20,5 @@ RUN apk add --no-cache git
 RUN git clone --branch v0.53 https://github.com/gohugoio/hugo.git /hugo
 RUN cd /hugo; go install
 
-ADD entrypoint.sh ./entrypoint.sh
-ENTRYPOINT ["./entrypoint.sh"]
+ADD entrypoint.sh /entrypoint.sh
+ENTRYPOINT ["/entrypoint.sh"]
