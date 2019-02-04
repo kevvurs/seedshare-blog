@@ -10,6 +10,7 @@ action "GitHub Action for Firebase" {
   env = {
     PROJECT_ID = "seedshare"
   }
+  args = "deploy"
 }
 
 action "action hugo" {
