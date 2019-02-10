@@ -7,6 +7,8 @@ theme = "osprey"
 canonifyURLS = true
 disableKinds = ["taxonomy", "taxonomyTerm"]
 googleAnalytics = "UA-132818094-1"
+pygmentsStyle = "manni"
+pygmentsCodefences = "true"
 
 [Params]
   tagline = "technology to inspire"
@@ -22,7 +24,7 @@ googleAnalytics = "UA-132818094-1"
   facebook = ""
   email = "hello@seedshare.io"
   googleTagManger = " "
-  highlightJS = true
+  highlightJS = false
   copyright = true
   credit = true
   customCSS = false
