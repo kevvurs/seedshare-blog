@@ -28,5 +28,3 @@ When I graduated from college, I took a promotion at Sears and continued to work
 remotely in a distributed team. After approximately six months, I left to join
 Lowe's Companies, Inc. where I am building industry-leading products in the
 supply chain space.
-
-![profile picture](/images/avatar.png)

@@ -8,6 +8,7 @@ categories = [ "architecture", "work", "retail", "data" ]
 +++
 
 ![warehouse shelves](/consistency/warehouse-shelves.jpg)
+_chuttersnap/unsplash_
 
 ## retail inventory lifecycle
 In a retail supply chain, eventual consistency is unavoidable. Products follow a
