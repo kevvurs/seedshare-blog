@@ -1,0 +1,23 @@
+name: CI
+
+on: 
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: ./action-hugo
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: w9jds/firebase-action@7d6b2b058813e1224cdd4db255b2f163ae4084d3
+      - name: push static site to firebase hosting
+        env:
+          PROJECT_ID: seedshare
+          FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
+        with:
+          args: deploy
+    needs: [build]
