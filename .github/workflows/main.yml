@@ -9,6 +9,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      - name: checkout self
+        uses: actions/checkout@v1
       - name: run static site generator
         uses: ./action-hugo
   deploy:
