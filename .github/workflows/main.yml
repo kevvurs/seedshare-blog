@@ -1,6 +1,6 @@
 name: CI
 
-on: 
+on:
   push:
     branches:
       - master
@@ -11,6 +11,8 @@ jobs:
     steps:
       - name: checkout self
         uses: actions/checkout@v1
+        with:
+          submodules: true
       - name: run static site generator
         uses: ./action-hugo
   deploy:
