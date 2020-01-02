@@ -11,10 +11,7 @@ jobs:
     steps:
       - name: checkout self
         uses: actions/checkout@v1
-      - name: fetch theme
-        uses: actions/checkout@v1
         with:
-          token: ${{ secrets.OSPREY_TOKEN }}
           submodules: true
       - name: run static site generator
         uses: ./action-hugo
