@@ -17,7 +17,7 @@ RUN apk add --no-cache musl-dev
 RUN apk add --no-cache git
 
 # Add hugo v0.53
-RUN git clone --branch v0.53 https://github.com/gohugoio/hugo.git /hugo
+RUN git clone --branch v0.62.0 https://github.com/gohugoio/hugo.git /hugo
 RUN cd /hugo; go install
 
 ADD entrypoint.sh /entrypoint.sh
