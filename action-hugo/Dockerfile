@@ -1,4 +1,4 @@
-FROM golang:1.11.5-alpine3.8
+FROM golang:1.13-alpine
 
 # Github labels
 LABEL "com.github.actions.name"="Hugo Action"
@@ -16,7 +16,11 @@ RUN apk add --no-cache gcc
 RUN apk add --no-cache musl-dev
 RUN apk add --no-cache git
 
-# Add hugo v0.53
+# Additional dependencies
+RUN apk update && \
+    apk add --no-cache ca-certificates libc6-compat libstdc++
+
+# Add hugo v0.62
 RUN git clone --branch v0.62.0 https://github.com/gohugoio/hugo.git /hugo
 RUN cd /hugo; go install
 

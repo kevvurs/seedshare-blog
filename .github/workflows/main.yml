@@ -9,11 +9,11 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: checkout self
+      - name: checkout source
         uses: actions/checkout@v1
         with:
           submodules: true
-      - name: run static site generator
+      - name: generate static site
         uses: ./action-hugo
   deploy:
     runs-on: ubuntu-latest
