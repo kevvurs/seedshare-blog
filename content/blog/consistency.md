@@ -36,6 +36,9 @@ tool for understanding event sourcing is to imagine data as if it was managed wi
 graph (DAG), I could compute the state of that item at any given time by applying
 those changes in-order.
 
+![dag diagram](/consistency/undraw_professor.png)
+_Professor/undraw.io_
+
 The impetus for this is clear in the case of a lost order.
 Storing all the information about an item that should have been shipped in a DAG, like a timeline, offers a powerful tool for resolving conflicts and mitigating
 repeated issues. If the item was lost in transit, then a tracking number will help
