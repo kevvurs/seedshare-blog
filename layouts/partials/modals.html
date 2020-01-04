@@ -11,8 +11,8 @@
       <div class="modal-container">
 
         <div class="modal-header">
-          <div class="modal-header-img-container" {{ if .Params.color }}style="background-color:{{ .Params.color }}"{{ end }}>
-            <img {{ if .Site.Params.lazyLoading }}data-src="{{ "images/" | relURL }}{{ .Params.image}}" class="lazyload"{{ else }}src="{{ "images/" | relURL }}{{ .Params.image}}"{{ end }} {{ if .Params.alt }}alt="{{ .Params.alt }}"{{ end }}>
+          <div class="modal-header-img-container" {{ if .Params.color }}style="background-color:#232323;"{{ end }}>
+            <!-- img {{ if .Site.Params.lazyLoading }}data-src="{{ "images/" | relURL }}{{ .Params.image}}" class="lazyload"{{ else }}src="{{ "images/" | relURL }}{{ .Params.image}}"{{ end }} {{ if .Params.alt }}alt="{{ .Params.alt }}"{{ end }} -->
           </div>
         </div>
 
