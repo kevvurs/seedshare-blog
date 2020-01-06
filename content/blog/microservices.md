@@ -1,23 +1,22 @@
 +++
 title = "Scaling Microservice Development"
-date = "2019-11-20"
+date = "2020-01-03"
 description = "organizaing against a dissonant codebase"
 tags = [ "software", "architecture", "microservice", "performance", "code" ]
 categories = [ "architecture", "work", "retail", "data" ]
 draft = true
-
 +++
 
 In 2019, my team was challenged with re-platforming an inventory management system (IMS).
 The previous system was the typical enterprise mash-up of legacy mainframe software
-and Linux VM deployments for applications written in an object-oriented language.
+and Linux VM deployments with applications written in an object-oriented language.
 Obviously, DB2 is also involved somewhere, or everywhere. Our challenge was to re-platform
 the IMS with __microservices__ that would run in Kubernetes. Microservices is a loaded
-word that could mean a variety of things, but the 12 Factors by Adam Wiggins is as close I can come
-to a proper definition of the concept. In our architecture, the applications would be
-developed in multiple code repositories, and each repository would have a CI/CD pipeline
-to build docker containers. Finally, these containers are blasted out into Google Kubernetes
-Engine using modern tools.
+word that could mean a variety of things, but the [12 Factors][12] by Adam Wiggins
+is as close I can come to a proper definition of the concept. In our architecture,
+the applications would be developed in multiple code repositories, and each repository
+would have a CI/CD pipeline to build docker containers. Finally, these containers are blasted out
+into Google Kubernetes Engine using modern tools.
 
 The container has become the fundamental unit of deployments in cloud-native software.
 Everything must be containerized before shipping in the cloud. However, the IMS that used
@@ -60,13 +59,5 @@ independently. New features could be intelligently versioned into the build arti
 this practice, the microservice source transitions from many silos to a fabric, joining the
 enabling technologies with business requirements.
 
-
-
-
-IV. Deployments
- A. Portrayal
- B. Rewards
- C. Links to Scaffold
-
-https://12factor.net/
+[12]: https://12factor.net/
 https://www.docker.com/
