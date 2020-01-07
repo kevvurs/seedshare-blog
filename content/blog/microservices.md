@@ -1,6 +1,6 @@
 +++
 title = "Scaling Microservice Development"
-date = "2020-01-03"
+date = "2020-01-07"
 description = "organizaing against a dissonant codebase"
 tags = [ "software", "architecture", "microservice", "performance", "code" ]
 categories = [ "architecture", "work", "retail", "data" ]
@@ -17,6 +17,9 @@ is as close I can come to a proper definition of the concept. In our architectur
 the applications would be developed in multiple code repositories, and each repository
 would have a CI/CD pipeline to build docker containers. Finally, these containers are blasted out
 into Google Kubernetes Engine using modern tools.
+
+![shipping containers](/microservices/undraw_container_ship.png)
+_Container ship/undraw.io_
 
 The container has become the fundamental unit of deployments in cloud-native software.
 Everything must be containerized before shipping in the cloud. However, the IMS that used
