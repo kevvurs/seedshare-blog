@@ -7,6 +7,14 @@ categories = [ "workshop", "meta" ]
 
 +++
 
+**Update** - Since GH Actions entered general acceptance, the API has changed entirely without
+any respect to the previous model. This article is effectively deprecated, but I
+encourage readers to continue if you are interested in what Actions used to be.
+A follow-up piece will be drafted soon with the new workflow API. _Spoiler, it
+took a ridiculous effort to migrate and is tedious in general._
+
+![jetpacktocat](/github-actions/jetpacktocat_wide.png)
+
 Months ago, I signed up for the [GitHub Actions][gitact] beta, a feature that
 allows you to hook CI actions directly into GitHub. Instead of using tools like
 Drone, CircleCI, or Wercker, you can simply add a __.workflow__ file to your git
