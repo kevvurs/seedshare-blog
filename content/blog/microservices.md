@@ -1,7 +1,7 @@
 +++
 title = "Scaling Microservice Development"
 date = "2020-03-09"
-description = "organizaing against a dissonant codebase"
+description = "organizing against a dissonant codebase"
 tags = [ "software", "architecture", "microservice", "performance", "code" ]
 categories = [ "architecture", "work", "retail", "data" ]
 +++
