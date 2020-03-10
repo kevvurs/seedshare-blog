@@ -1,10 +1,9 @@
 +++
 title = "Scaling Microservice Development"
-date = "2020-01-07"
+date = "2020-03-09"
 description = "organizaing against a dissonant codebase"
 tags = [ "software", "architecture", "microservice", "performance", "code" ]
 categories = [ "architecture", "work", "retail", "data" ]
-draft = true
 +++
 
 In 2019, my team was challenged with re-platforming an inventory management system (IMS).
@@ -16,7 +15,7 @@ word that could mean a variety of things, but the [12 Factors][12] by Adam Wiggi
 is as close I can come to a proper definition of the concept. In our architecture,
 the applications would be developed in multiple code repositories, and each repository
 would have a CI/CD pipeline to build docker containers. Finally, these containers are blasted out
-into Google Kubernetes Engine using modern tools.
+into [Google Kubernetes Engine][gke] using modern tools.
 
 ![shipping containers](/microservices/undraw_container_ship.png)
 _Container ship/undraw.io_
@@ -32,7 +31,7 @@ products. To improve our systems, we needed to synchronize our communication cha
 and delegate clear responsibilities. Once our team was effectively communicating and coordinating
 the work, we began to make meaningful progress in delivering key features.
 
-The microservice architecture still created a lot of source in our repositories.
+The microservice architecture still created a lot of sourcecode in our repositories.
 This is helpful because we can balance and assign work to targeted components in the
 portfolio without needing to apply changes to other parts of the IMS. But not everything
 in software development is suitable for this pattern. Specifically, services commonly
@@ -60,7 +59,15 @@ concerns into extensible, minimal packages, and then import them back into the s
 the build system and middleware. Reusable code became dependencies which were tested and scaled
 independently. New features could be intelligently versioned into the build artifacts. Following
 this practice, the microservice source transitions from many silos to a fabric, joining the
-enabling technologies with business requirements.
+enabling technologies with business requirements. The bottomline is that in order to scale
+microservice architecture, common features should all be abstracted out wherever possible. Then
+the microservice binds together common features from libraries and adds just enough functionality
+internally to accomplish a narrow scope of business requirements. The drawback here is creating a
+deep stack of dependencies that implicitly couple the services depending on them. With versioning
+and thoughtful design, we can maintain the common feature libraries without breaking the apps. In
+fact, directing time to these activities drives solutions to scale more so than the effort needed
+to maintain an armada of microservices unrelated codebases and bespoke implementations of payload
+deserialization.
 
 [12]: https://12factor.net/
-https://www.docker.com/
+[gke]: https://cloud.google.com/kubernetes-engine
