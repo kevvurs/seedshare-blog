@@ -221,9 +221,10 @@ approach.
 
 ## next steps
 Now that we have a candidate implementation, we must ask, "Does it even work?"
-In the next post, I will discuss testing my example and visualizing the problem.
-Then, we'll examine another algorithm to solve TSP and perform benchmarks to
-determine the characteristics of each approximation algorithm.
+In the [next post](/blog/tsp2), I will discuss testing my example and
+visualizing the problem. Then, we'll examine another algorithm to solve TSP and
+perform benchmarks to determine the characteristics of each approximation
+algorithm.
 
 [tsp]: https://en.wikipedia.org/wiki/Travelling_salesman_problem
 [graph]: https://ocw.mit.edu/courses/mathematics/18-315-combinatorial-theory-introduction-to-graph-theory-extremal-and-enumerative-combinatorics-spring-2005/
