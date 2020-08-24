@@ -2,7 +2,7 @@
 title = "Test For Success"
 date = 2020-07-29T20:22:00-07:00
 description = ""
-tags = [ "tsp", "algorithm", "optimization", "junit", "mockito" ]
+tags = [ "tsp", "algorithm", "optimization", "junit", "assertj" ]
 categories = [ "programming", "optimization", "guide", "testing" ]
 +++
 
@@ -14,7 +14,7 @@ ship. I also planned to cover visualizing the problem, but in an effort to keep
 this short, I have decided to include that in a follow-up post.
 
 ![it is all a test](/tsp/undraw_solution_mindset.png)
-_Solution mindset/undraw.io_
+_Solution mindset/undraw.co_
 
 ## unit testing
 A unit test is a software routine that executes a selection of source code to
