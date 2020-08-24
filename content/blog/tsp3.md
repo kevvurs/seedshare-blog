@@ -1,10 +1,9 @@
 +++
-title = "Dynamic Graph Visualizations"
+title = "Directed Graph Visualization"
 date = 2020-07-29T20:22:00-07:00
 description = ""
 tags = [ "tsp", "algorithm", "optimization", "junit", "graphviz", "dot" ]
 categories = [ "programming", "optimization", "guide", "visualization" ]
-draft = true
 
 +++
 
@@ -470,6 +469,14 @@ for TSP. Using this visualization technique, I can render side-by-side compariso
 for the routing algorithms. Then, we'll move on to benchmarking each router
 variation quantitatively. All the source-code from this post will be available in
 the [GitHub repository][repo].
+
+### various routes (NN)
+![example 1](/tsp/graphviz-ex1.png)
+
+![example 2](/tsp/graphviz-ex2.png)
+
+![example 3](/tsp/graphviz-ex3.png)
+
 
 [grp]: https://en.wikipedia.org/wiki/Directed_graph
 [gv]: https://graphviz.org/
