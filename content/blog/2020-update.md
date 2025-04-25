@@ -44,7 +44,7 @@ This would make for a super useful programming environment that costs less than 
 actual cloud-based IDE subscription. This project is on ice right now because I needed
 to unplug RPi3's and free up outlets for Christmas lights. Rebooting soon.
 
-{{< tweet 1196608532042268672 >}}
+{{< x id="1196608532042268672" user="kevvurs" >}}
 
 ### 3D bin packing
 I have done work on bin-packing in previous work projects. I wrote approximation

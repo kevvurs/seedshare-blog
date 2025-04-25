@@ -5,8 +5,7 @@ languageCode = "en-US"
 config = "config.toml"
 theme = "osprey"
 canonifyURLS = true
-disableKinds = ["taxonomyTerm"]
-googleAnalytics = "UA-132818094-1"
+disableKinds = ["taxonomy"]
 pygmentsStyle = "manni"
 pygmentsCodefences = "true"
 
