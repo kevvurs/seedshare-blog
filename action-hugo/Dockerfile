@@ -1,4 +1,4 @@
-FROM golang:1.13-alpine
+FROM golang:1.24.2-alpine3.21
 
 # Github labels
 LABEL "com.github.actions.name"="Hugo Action"
@@ -20,8 +20,8 @@ RUN apk add --no-cache git
 RUN apk update && \
     apk add --no-cache ca-certificates libc6-compat libstdc++
 
-# Add hugo v0.62
-RUN git clone --branch v0.62.0 https://github.com/gohugoio/hugo.git /hugo
+# Add hugo v0.146.7
+RUN git clone --branch v0.146.7 https://github.com/gohugoio/hugo.git /hugo
 RUN cd /hugo; go install
 
 ADD entrypoint.sh /entrypoint.sh
