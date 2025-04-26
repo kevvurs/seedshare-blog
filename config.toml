@@ -12,7 +12,7 @@ pygmentsCodefences = "true"
 [Params]
   tagline = "technology to inspire"
   author = "Kevin Caravaggio"
-  description = "Software Engineer in Seattle developing cloud-powered enterprise services"
+  description = "Software Engineer in Austin developing cloud-powered enterprise services"
   logoBig = "/images/seedshare-banner.jpg"
   logoSmall = "/images/seedshare-symbol.png"
   favicon = "/images/seedshare-favicon.png"

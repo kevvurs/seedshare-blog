@@ -2,7 +2,7 @@
 title = "Reemergence"
 date = 2025-04-24T23:00:00-06:00
 description = "I return from my hiatus"
-images = [ "/emerge/welcome-back.jpg" ]
+images = [ "/emerge/kauai.jpg" ]
 tags = [ "development", "blog", "austin", "amazon" ]
 categories = [ "life", "meta" ]
 +++
