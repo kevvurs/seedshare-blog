@@ -6,7 +6,7 @@ on:
       - master
 
 jobs:
-  build:
+  build_and_deploy:
     runs-on: ubuntu-latest
     steps:
       - name: checkout source
@@ -15,3 +15,9 @@ jobs:
           submodules: true
       - name: Action Hugo
         uses: kevvurs/action-hugo@v1.1-rc1
+      - uses: FirebaseExtended/action-hosting-deploy@v0
+        with:
+          repoToken: ${{ secrets.GITHUB_TOKEN }}
+          firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_SEEDSHARE }}
+          channelId: live
+          projectId: seedshare
