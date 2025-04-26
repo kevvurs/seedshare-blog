@@ -7,8 +7,8 @@ tags = [ "development", "blog", "austin", "amazon" ]
 categories = [ "life", "meta" ]
 +++
 
-![returning to land](/emerge/welcome-back.jpg)
-_Matthew Waring/unsplash_
+![hi](/emerge/kauai.jpg)
+_Kauai_
 
 ## how ya been?
 
@@ -113,7 +113,7 @@ Not bad! More to come...
 ![my handwriting](/emerge/notes.jpg)
 
 p.p.s.: getting this blog up and running again was a piece of work! But it is a
-[labor of love ♥](https://github.com/kevvurs/seedshare-blog/compare/kevvurs:26a2b6f...master).
+[labor of love ♥](https://github.com/kevvurs/seedshare-blog/compare/kevvurs:26a2b6f...kevvurs:f51af7d).
 
 [tech]: https://leetcode.com/problemset/
 [book]: https://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/0984782850
