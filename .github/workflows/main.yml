@@ -15,10 +15,3 @@ jobs:
           submodules: true
       - name: Action Hugo
         uses: kevvurs/action-hugo@v1.1-rc1
-      - name: publish website
-        uses: w9jds/firebase-action@v14.2.1
-        env:
-          PROJECT_ID: seedshare
-          FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
-        with:
-          args: deploy
