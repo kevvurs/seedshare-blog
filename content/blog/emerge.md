@@ -63,8 +63,8 @@ ambition of mine: to take part in customer journey on the world's biggest
 e-commerce website.
 
 | | |
-|--|-|
-| ![web cookie banner](/emerge/banner-web.jpg) | ![mobile DMA banner](/emerge/banner-mobile.jpg) | 
+|-|-|
+| ![web datause](/emerge/datause.jpg) | ![mobile datause](/emerge/datause-mobile.jpg) | 
 
 The next project I launched was collecting Cookie Consent in Quebec. I
 learned so much by extending and eventually rearchitecting consent collection
